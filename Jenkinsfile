@@ -3,18 +3,18 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building..'
+        echo 'Building...'
         sh 'python --version'
       }
     }
     stage('Test') {
       steps {
-        echo 'Testing..'
+        echo 'Testing....'
       }
     }
     stage('Deploy') {
       steps {
-        echo 'Deploying....'
+        echo 'Deploying.....'
       }
     }
   }
